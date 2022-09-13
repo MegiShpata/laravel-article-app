@@ -30,11 +30,11 @@
                                 <div class="row">
                                     <div class="form-group col-3">
                                         <label>Search by Emertimi</label>
-                                        <input type="text" name="search" value="{{request()->get('emertimi','')}}" class="form-control" />
+                                        <input type="text" name="emertimi" value="{{request()->get('emertimi','')}}" class="form-control" />
                                     </div>
                                     <div class="form-group col-3">
                                         <label>Search by Barcode</label>
-                                        <input type="text" name="search" value="{{request()->get('barcode','')}}" class="form-control" />
+                                        <input type="text" name="barcode" value="{{request()->get('barcode','')}}" class="form-control" />
                                     </div>
                                 </div>
                                 <button class='btn btn-success'>Search</button>

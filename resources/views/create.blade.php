@@ -36,24 +36,24 @@
                     <div class="row">
 
                         <div class="col-md-4">
-                            <label>Title</label>
-                            <input type="text" placeholder="Barcode" value="{{ old('barcode') }}" name="barcode" class="form-control">
+                            <label>Barcode</label>
+                            <input type="text" placeholder="barcode" value="{{ old('barcode') }}" name="barcode" class="form-control">
                         </div>
                         <div class="col-md-4">
                             <label>Emertimi</label>
-                            <input type="text" placeholder="Emertimi" value="{{ old('emertimi') }}" name="emertimi" class="form-control">
+                            <input type="text" placeholder="emertimi" value="{{ old('emertimi') }}" name="emertimi" class="form-control">
                         </div>
                         <div class="col-md-4">
                             <label>Njesia</label>
-                            <input type="text" placeholder="Njesia" value="{{ old('njesia') }}" name="njesia" class="form-control">
+                            <input type="text" placeholder="njesia" value="{{ old('njesia') }}" name="njesia" class="form-control">
                         </div>
                         <div class="col-md-4">
                             <label>Data_skadences</label>
-                            <input type="date" placeholder="Data_skadences" value="{{ old('data_skadences') }}" name="data_skadences" class="form-control">
+                            <input type="date" placeholder="data_skadences" value="{{ old('data_skadences') }}" name="data_skadences" class="form-control">
                         </div>
                         <div class="col-md-4">
                             <label>Price</label>
-                            <input type="text" placeholder="Price" value="{{ old('price') }}" name="price" class="form-control">
+                            <input type="text" placeholder="price" value="{{ old('price') }}" name="price" class="form-control">
                         </div>
 
                         <div class="col-md-4">
